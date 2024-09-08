@@ -11,3 +11,4 @@ ultralytics
 # scikit-image
 # filterpy
 # pip cache purge
+# upgarde pip

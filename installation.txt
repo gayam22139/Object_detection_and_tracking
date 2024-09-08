@@ -5,3 +5,4 @@
 # deactivate -> to deactivate env
 # pip install yt_dlp
 # pip install imutils
+# upgrade pipgit checkout master
