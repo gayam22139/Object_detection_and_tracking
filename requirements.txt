@@ -1,0 +1,13 @@
+opencv-python
+opencv-contrib-python
+yt_dlp
+ultralytics
+# torch
+# torchvision
+# numpy
+# sort
+# imutils
+# matplotlib
+# scikit-image
+# filterpy
+# pip cache purge
