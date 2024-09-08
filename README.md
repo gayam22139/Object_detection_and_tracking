@@ -1,4 +1,4 @@
-```markdown
+
 # Object Detection and Tracking
 
 This repository contains an implementation of object detection and tracking using OpenCV. The project allows you to detect and track objects in video frames using various tracking algorithms.
