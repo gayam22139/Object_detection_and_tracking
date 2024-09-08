@@ -67,5 +67,5 @@ python test_detector.py
 ## Customization
 
 - **Tracker Selection**: You can choose different tracking algorithms by modifying the `tracker_type` variable in the `run.py` script.
-- **Cascade Classifier**: You can use your own cascade classifier by replacing the files in the `cascade` directory. Use other pre-trained or custom object detctors this current version isn't detcting objects well try to use other detectors and improve it 
+- **Cascade Classifier**: You can use your own cascade classifier by replacing the files in the `cascade` directory. Use other pre-trained or custom object detetors, I have used yolo v8 pretrained model but it couldn't detect the oject well, I feel a custom object detctor can be trained and used in this project, anyways tracker is working well.
 
