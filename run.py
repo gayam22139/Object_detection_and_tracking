@@ -1,5 +1,6 @@
 import cv2
-from detector import detect_persons
+# from detector import detect_persons
+from detector_ultra import detect_persons
 from tracker import track_objects, update_trackers
 # from pytube import YouTube
 import yt_dlp
@@ -77,8 +78,8 @@ def process_video(input_video_path, output_video_path, tracker_type='CSRT'):
         return
 
     # Perform detection
-    # bboxes, scores = detect_persons(frame)
-    bboxes = manual_reference_detection(frame)            # *********** manual ***************
+    bboxes, scores = detect_persons(frame)
+    # bboxes = manual_reference_detection(frame)            # *********** manual ***************
     print(f"Detected bounding boxes: {bboxes}")
 
     # Initialize trackers
