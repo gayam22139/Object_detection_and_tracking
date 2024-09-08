@@ -27,7 +27,7 @@ def detect_persons(image):
     
     return bboxes, scores
 
-# Example usage
+
 if __name__ == '__main__':
     image = cv2.imread('Images/people.jpg')
     bboxes, scores = detect_persons(image)
